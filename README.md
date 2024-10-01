@@ -1,8 +1,16 @@
-### Imp Points:
-- REST API -> FastAPI
-- pydantic
+### To develop Python REST API, following topics, libs are important:
+- FastAPI
 - Starlette
+- pydantic
 - uvicorn
+```
+from fastapi import FastAPI, Depends, HTTPException, Query, Request, Response
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
+from pydantic import BaseModel
+from typing import Dict, List, Optional
+import logging
+```
 
 ## Explanation of Key Features in main.py:
 
