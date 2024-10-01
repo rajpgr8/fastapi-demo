@@ -3,6 +3,7 @@
 - Starlette
 - pydantic
 - uvicorn
+- async
 ```
 from fastapi import FastAPI, Depends, HTTPException, Query, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
