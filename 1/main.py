@@ -1,3 +1,4 @@
+# RUN: python3 -m uvicorn main:app --reload
 from fastapi import FastAPI, Depends, HTTPException, Query, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
@@ -67,7 +68,7 @@ async def update_user(username: str, user: User):
     fake_db[username] = user
     logger.error(f"User updated successfully: {username}")
     return {"message": "User updated successfully", "user": user}
-    
+
 # Custom exception handler
 @app.exception_handler(HTTPException)
 async def http_exception_handler(request: Request, exc: HTTPException):
