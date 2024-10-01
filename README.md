@@ -31,3 +31,7 @@
 ![image](https://github.com/user-attachments/assets/6ccec502-d62c-4589-b8a0-835295a5d8a0)     
 
 ![image](https://github.com/user-attachments/assets/26e8bc85-cd91-4a2e-9310-01d940d46c02)    
+```
+pip3 install fastapi uvicorn
+python3 -m uvicorn main:app --reload
+```
