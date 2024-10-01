@@ -1,3 +1,9 @@
+### Imp Points:
+- REST API -> FastAPI
+- pydantic
+- Starlette
+- uvicorn
+
 ## Explanation of Key Features in main.py:
 
 ### Pydantic Models:
