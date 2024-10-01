@@ -25,6 +25,8 @@
 
 - **Swagger UI**: Automatically available at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
 - **ReDoc**: Available at [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc).
+ 
+![image](https://github.com/user-attachments/assets/a5bfcd80-bd80-444e-ad9b-a376a6b55a69)
 
 ![image](https://github.com/user-attachments/assets/6ccec502-d62c-4589-b8a0-835295a5d8a0)     
 
